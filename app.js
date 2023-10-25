@@ -11,7 +11,7 @@ yesbtn.addEventListener('click',() => {
     question.innerHTML = 'I love you too';
 });
 
-nobtn.addEventListener('click',() => {
+nobtn.addEventListener('hover',() => {
    const i =Math.floor(Math.random() * (wrapperRect.width - nobtnRect.width)) + 1;
    const j =Math.floor(Math.random() * (wrapperRect.height - nobtnRect.height)) + 1;
 
