@@ -8,7 +8,7 @@ const nobtnRect = nobtn.getBoundingClientRect();
 
 
 yesbtn.addEventListener('click',() => {
-    question.innerHTML = 'I love you too';
+    question.innerHTML = 'YAYYY MWAAAA';
 });
 
 nobtn.addEventListener('hover',() => {
