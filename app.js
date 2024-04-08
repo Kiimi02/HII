@@ -8,10 +8,10 @@ const nobtnRect = nobtn.getBoundingClientRect();
 
 
 yesbtn.addEventListener('click',() => {
-    question.innerHTML = 'YAYYY MWAAAA';
+    question.innerHTML = 'I love you too';
 });
 
-nobtn.addEventListener('hover',() => {
+nobtn.addEventListener('click',() => {
    const i =Math.floor(Math.random() * (wrapperRect.width - nobtnRect.width)) + 1;
    const j =Math.floor(Math.random() * (wrapperRect.height - nobtnRect.height)) + 1;
 
