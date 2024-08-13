@@ -11,7 +11,7 @@ yesbtn.addEventListener('click',() => {
     question.innerHTML = 'Yeyy mwaaa';
 });
 
-nobtn.addEventListener('hover',() => {
+nobtn.addEventListener("mouseover",() => {
    const i =Math.floor(Math.random() * (wrapperRect.width - nobtnRect.width)) + 1;
    const j =Math.floor(Math.random() * (wrapperRect.height - nobtnRect.height)) + 1;
 
