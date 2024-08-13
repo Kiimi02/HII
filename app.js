@@ -15,6 +15,6 @@ nobtn.addEventListener('mouseover', () => {
    const i =Math.floor(Math.random() * (wrapperRect.width - nobtnRect.width)) + 1;
    const j =Math.floor(Math.random() * (wrapperRect.height - nobtnRect.height)) + 1;
 
-   nobtn.style.left = i + 'px'
-   nobtn.style.top = j + 'px'
+   nobtn.style.left = i + 'px';
+   nobtn.style.top = j + 'px';
 }); 
